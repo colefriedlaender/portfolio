@@ -10,7 +10,9 @@ $body-bg: #ddd;
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
-
+.body {
+  scroll-snap-type: mandatory;
+}
 .fancy {
   display: inline-block;
   background: rgb(131, 58, 180);
@@ -29,11 +31,23 @@ $body-bg: #ddd;
 .navbar {
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;
-  font-size: large;
+  font-size: 1.5rem;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
+}
+.col-topic {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4em;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48%;
+  margin-bottom: 25%;
 }
 .topic {
   text-align: center;
@@ -56,16 +70,13 @@ $body-bg: #ddd;
   padding-right: 1rem;
   padding-left: 3rem;
 }
-.randomtext {
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-right: 5%;
-}
+
 .bottombar {
   text-align: center;
+  vertical-align: middle;
   padding: 10px;
   width: 100%;
-  height: 2.5rem;
+  height: 7%;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -75,8 +86,9 @@ $body-bg: #ddd;
 .emailto {
   color: black;
   font-family: "Courier New", Courier, monospace;
-  font-size: large;
+  font-size: 1.5rem;
   font-weight: bold;
+  vertical-align: middle;
 }
 a:hover {
   color: white;
@@ -88,7 +100,125 @@ a:link {
 a:active {
   color: white;
 }
-.topic:hover {
+.col-topic:hover {
   font-size: 5em;
   color: hotpink;
+}
+.portfolio-img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35%;
+}
+.cv {
+  text-align: center;
+  padding-top: 5%;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4em;
+  font-weight: bold;
+  height: 15%;
+}
+.cv-topic {
+  color: blue;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.school {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  font-size: 1.8rem;
+  margin-bottom: 25%;
+  line-height: 2;
+}
+.cv-topic-2 {
+  color: blue;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.experience {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  font-size: 1.8rem;
+  margin-bottom: 12%;
+  line-height: 2;
+}
+.col {
+  background-color: white;
+}
+#acctive-link:hover {
+  color: hotpink;
+}
+#acctive-link:link {
+  color: black;
+}
+.cv-topic-3 {
+  color: blue;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.hobbies {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  font-size: 1.8rem;
+  margin-bottom: 45%;
+  line-height: 2;
+}
+.cv-topic-4 {
+  color: blue;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.language {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  font-size: 1.8rem;
+  margin-bottom: 40%;
+  line-height: 2;
 }
