@@ -31,7 +31,7 @@ $body-bg: #ddd;
 .navbar {
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;
-  font-size: 1.5rem;
+  font-size: 100%;
   position: fixed;
   left: 0;
   top: 0;
@@ -41,18 +41,18 @@ $body-bg: #ddd;
   color: white;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 4em;
+  font-size: 300%;
   font-weight: bold;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 48%;
-  margin-bottom: 25%;
+  margin-bottom: 30%;
 }
 .topic {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 4em;
+  font-size: 400%;
   font-weight: bold;
   margin-top: 5rem;
 }
@@ -86,9 +86,9 @@ $body-bg: #ddd;
 .emailto {
   color: black;
   font-family: "Courier New", Courier, monospace;
-  font-size: 1.5rem;
+  font-size: 125%;
   font-weight: bold;
-  vertical-align: middle;
+  text-align: center;
 }
 a:hover {
   color: white;
@@ -101,7 +101,7 @@ a:active {
   color: white;
 }
 .col-topic:hover {
-  font-size: 5em;
+  font-size: 400%;
   color: hotpink;
 }
 .portfolio-img {
@@ -114,12 +114,11 @@ a:active {
 }
 .cv {
   text-align: center;
-  padding-top: 5%;
   width: 100%;
-  height: 2.5rem;
+  height: 50%;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 4em;
+  font-size: 300%;
   font-weight: bold;
   height: 15%;
 }
@@ -127,7 +126,7 @@ a:active {
   color: blue;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 3rem;
+  font-size: 250%;
   font-weight: bold;
   display: block;
   margin-left: auto;
@@ -141,15 +140,15 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%;
-  font-size: 1.8rem;
-  margin-bottom: 25%;
+  font-size: 125%;
+  margin-bottom: 45%;
   line-height: 2;
 }
 .cv-topic-2 {
   color: blue;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 3rem;
+  font-size: 250%;
   font-weight: bold;
   display: block;
   margin-left: auto;
@@ -164,8 +163,8 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%;
-  font-size: 1.8rem;
-  margin-bottom: 12%;
+  font-size: 125%;
+  margin-bottom: 60%;
   line-height: 2;
 }
 .col {
@@ -181,7 +180,7 @@ a:active {
   color: blue;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 3rem;
+  font-size: 250%;
   font-weight: bold;
   display: block;
   margin-left: auto;
@@ -196,15 +195,15 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%;
-  font-size: 1.8rem;
-  margin-bottom: 45%;
+  font-size: 150%;
+  margin-bottom: 60%;
   line-height: 2;
 }
 .cv-topic-4 {
   color: blue;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 3rem;
+  font-size: 250%;
   font-weight: bold;
   display: block;
   margin-left: auto;
@@ -219,7 +218,10 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%;
-  font-size: 1.8rem;
-  margin-bottom: 40%;
+  font-size: 150%;
+  margin-bottom: 55%;
   line-height: 2;
+}
+.container-cv {
+  width: 100%;
 }
