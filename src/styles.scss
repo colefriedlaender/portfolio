@@ -55,6 +55,11 @@ $body-bg: #ddd;
   padding-left: 3rem;
 }
 
+// colums genera
+.col {
+  background-color: white;
+}
+
 // portfolio image plus text
 .col-topic {
   color: white;
@@ -75,6 +80,12 @@ $body-bg: #ddd;
   font-weight: bold;
   margin-top: 5rem;
 }
+#acctive-link:hover {
+  color: hotpink;
+}
+#acctive-link:link {
+  color: black;
+}
 .portfolio-img {
   max-width: 90%;
   border-radius: 50%;
@@ -89,6 +100,7 @@ $body-bg: #ddd;
   color: hotpink;
 }
 
+// my cv topic
 .cv {
   text-align: center;
   width: 100%;
@@ -110,6 +122,8 @@ $body-bg: #ddd;
   margin-right: auto;
   margin-top: 5%;
 }
+
+// education
 .school {
   color: black;
   font-family: "Courier New", Courier, monospace;
@@ -133,6 +147,7 @@ $body-bg: #ddd;
   margin-top: 5%;
 }
 
+// experience
 .experience {
   color: black;
   font-family: "Courier New", Courier, monospace;
@@ -143,15 +158,6 @@ $body-bg: #ddd;
   font-size: 125%;
   margin-bottom: 60%;
   line-height: 2;
-}
-.col {
-  background-color: white;
-}
-#acctive-link:hover {
-  color: hotpink;
-}
-#acctive-link:link {
-  color: black;
 }
 .cv-topic-3 {
   color: blue;
@@ -165,6 +171,7 @@ $body-bg: #ddd;
   margin-top: 5%;
 }
 
+// hobbies
 .hobbies {
   color: black;
   font-family: "Courier New", Courier, monospace;
@@ -173,7 +180,7 @@ $body-bg: #ddd;
   margin-right: auto;
   margin-top: 7%;
   font-size: 150%;
-  margin-bottom: 60%;
+  margin-bottom: 65%;
   line-height: 2;
 }
 .cv-topic-4 {
@@ -188,6 +195,7 @@ $body-bg: #ddd;
   margin-top: 5%;
 }
 
+// language
 .language {
   color: black;
   font-family: "Courier New", Courier, monospace;
