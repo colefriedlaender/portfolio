@@ -81,7 +81,7 @@ $body-bg: #ddd;
   margin-top: 5rem;
 }
 #acctive-link:hover {
-  color: hotpink;
+  color: pink;
 }
 #acctive-link:link {
   color: black;
@@ -112,7 +112,7 @@ $body-bg: #ddd;
   height: 15%;
 }
 .cv-topic {
-  color: blue;
+  color: #1e6db0;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 250%;
@@ -136,7 +136,7 @@ $body-bg: #ddd;
   line-height: 2;
 }
 .cv-topic-2 {
-  color: blue;
+  color: #1e6db0;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 250%;
@@ -159,8 +159,11 @@ $body-bg: #ddd;
   margin-bottom: 60%;
   line-height: 2;
 }
+#acctive-link {
+  color: #1e6db0;
+}
 .cv-topic-3 {
-  color: blue;
+  color: #1e6db0;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 250%;
@@ -184,7 +187,7 @@ $body-bg: #ddd;
   line-height: 2;
 }
 .cv-topic-4 {
-  color: blue;
+  color: #1e6db0;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 250%;
